@@ -1,9 +1,21 @@
 <html>
 	<body ng-app="myApp">
+		<div ui-view="nav"></div>
 		<div ng-view></div>
+		<div ui-view="footer"></div>
 	<script src="/bower_components/angular/angular.js"></script>
 	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
 	<script src="app.js"></script>
 	<script src="app.routes.js"></script>
+	<script src="/model/User.js"></script>
+	<script src="/service/UserService.js"></script>
+
+
+	<script src="/controller/loginController.js"></script>
+	<script src="/controller/navController.js"></script>
+	
+
 	</body>
 </html>

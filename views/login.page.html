@@ -1,0 +1,7 @@
+<label>username: </label><input ng-model = "vm.username"/><br/>
+<label>password:</label> <input ng-model = "vm.password" type="password"/></br>
+
+<button ng-click="vm.UserService.login(vm.username, vm.password);">login</button>
+
+
+{{vm.User}}

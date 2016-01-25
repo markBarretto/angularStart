@@ -1,0 +1,23 @@
+{
+  "name": "angularArchitecture",
+  "description": "sampleProject",
+  "main": "app.js",
+  "authors": [
+    "Mark Barretto <mark.barretto@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/markBarretto/angularStart",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-route": "~1.4.9",
+    "angular-ui-router": "~0.2.15"
+  }
+}
